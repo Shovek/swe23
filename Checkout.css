@@ -70,3 +70,14 @@ input {
     transition: all 0.3s ease-in-out;
     background: #f5f5f5;
 }
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 5px;
+}
