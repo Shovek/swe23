@@ -37,10 +37,21 @@ function Checkout() {
         return null;
     }
 
+    const handleSubmit = (event) => {
+        console.log('hi')
+    }
+
     // Return Checkout JSX
     return (
         <div className="checkout">
-            <h2>Checkout</h2>
+            <h2>Checkout</h2>  
+            <label className="promotions">    
+                <input
+                type="text"
+                placeholder="Apply promotion code here"
+                />
+            </label>
+
             <h3 className="total-price">Total Price: ${totalPrice}</h3> 
             {cartItems.length === 0 
                 ? <p>Your cart is empty.</p> // If cart is empty, display this message
