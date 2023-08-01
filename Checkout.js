@@ -51,6 +51,8 @@ function Checkout() {
                 placeholder="Apply promotion code here"
                 />
             </label>
+            <button> Apply </button>
+
 
             <h3 className="total-price">Total Price: ${totalPrice}</h3> 
             {cartItems.length === 0 
